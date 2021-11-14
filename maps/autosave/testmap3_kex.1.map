@@ -1,0 +1,40 @@
+// Game: Quake
+// Format: Valve
+// entity 0
+{
+"mapversion" "220"
+"classname" "worldspawn"
+"_tb_def" "external:D:/QuakeDevActual/pd_200/development/fgd_def/pd_200_TB.fgd"
+"wad" "D:/QuakeDevActual/pd_200/development/wads/pd_200.wad"
+"_tb_mod" "pd_200"
+// brush 0
+{
+( -736 -64 -16 ) ( -736 -63 -16 ) ( -736 -64 -15 ) __TB_empty [ 0 -1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 -208 -16 ) ( -64 -208 -15 ) ( -63 -208 -16 ) __TB_empty [ 1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( -64 -64 -16 ) ( -63 -64 -16 ) ( -64 -63 -16 ) __TB_empty [ -1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 64 64 16 ) ( 64 65 16 ) ( 65 64 16 ) __TB_empty [ 1 0 0 0 ] [ 0 -1 0 0 ] 0 1 1
+( 64 208 16 ) ( 65 208 16 ) ( 64 208 17 ) __TB_empty [ -1 0 0 0 ] [ 0 0 -1 0 ] 0 1 1
+( 192 64 16 ) ( 192 64 17 ) ( 192 65 16 ) __TB_empty [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1
+}
+}
+// entity 1
+{
+"classname" "light_candle"
+"origin" "-136 40 44"
+}
+// entity 2
+{
+"classname" "info_player_start"
+"origin" "16 -80 40"
+"angle" "180"
+}
+// entity 3
+{
+"classname" "air_bubbles"
+"origin" "-136 -104 24"
+}
+// entity 4
+{
+"classname" "monster_army"
+"origin" "-672 0 40"
+}
